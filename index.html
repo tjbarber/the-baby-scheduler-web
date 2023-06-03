@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+
+    <title>The Baby Scheduler</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//cdn-images.mailchimp.com/embedcode/classic-071822.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+      }
+
+      h1,
+      .logo-font {
+        font-family: "Ms Madi", cursive;
+        color: #ea9a9aff;
+      }
+
+      #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      #mc_embed_signup .button {
+        background-color: #ea9a9aff;
+      }
+
+      #mc_embed_signup .button:hover {
+        background-color: #ffa7a7ff;
+      }
+
+      #mc_embed_signup input.mce_inline_error {
+        border-color: #ea9a9aff !important;
+      }
+
+      #mc_embed_signup .indicates-required {
+        margin-right: 0;
+      }
+
+      #mc_embed_signup .mc-field-group {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex flex-col h-screen justify-between">
+      <main class="mb-auto text-center">
+        <h1 class="mt-12 md:mt-32 mx-4 text-6xl">The Baby Scheduler</h1>
+        <p class="m-12">
+          The Baby Scheduler is being revitalized and completely rewritten as an
+          iOS app! Some of the new features will include:
+        </p>
+        <ul class="m-12">
+          <li>
+            Push notifications to let you know when your baby should be waking
+            up
+          </li>
+          <li>
+            Automatically adjusting your baby's schedule based on their age
+          </li>
+          <li>Easily manage the schedules of multiple babies</li>
+          <li>...and more!</li>
+        </ul>
+        <div id="mc_embed_signup">
+          <form
+            action="https://tjbarber.us21.list-manage.com/subscribe/post?u=8686f4bf687cd7c58dab53d0d&amp;id=20a5e00c68&amp;f_id=00ad55e1f0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <h2 class="text-center">Sign up for Early Access</h2>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">
+                  Email Address <span class="asterisk">*</span>
+                </label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                  required
+                />
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>
+              <div id="mce-responses" class="clear foot">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px" aria-hidden="true">
+                <input
+                  type="text"
+                  name="b_8686f4bf687cd7c58dab53d0d_20a5e00c68"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="optionalParent text-center">
+                <input
+                  type="submit"
+                  value="Sign up"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="button"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
+      </main>
+      <footer class="py-4 text-center text-neutral-600">
+        <span class="mt-8 mx-4">
+          Made with &#9829; by
+          <a class="underline" href="https://tjbarber.org">TJ Barber</a> and
+          <a class="underline" href="https://www.youtube.com/c/TheJenniBarber"
+            >Jenni Barber</a
+          >
+        </span>
+      </footer>
+    </div>
+    <script
+      type="text/javascript"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    ></script>
+    <script type="text/javascript">
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "ADDRESS";
+        ftypes[3] = "address";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+        fnames[5] = "BIRTHDAY";
+        ftypes[5] = "birthday";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
+    </script>
+  </body>
+</html>
